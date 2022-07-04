@@ -11,12 +11,17 @@
 
 ## Introduction
 [Real-Time End-to-End Video Text Spotting with Contrastive Representation Learning]
-
+Video text spotting(VTS) is the task that requires simultaneously detecting, tracking and recognizing text instances in the video. Existing video text spotting methods typically develop sophisticated pipelines and multiple models, which is no friend for real-time applications. Here we propose a real-time end-to-end video text spotter with Contrastive Representation learning (CoText). Our contributions are four-fold: 1) For the first time, we simultaneously address the three tasks (e.g., text detection, tracking, recognition) in a real-time end-to-end trainable framework.
+2) Like humans, CoText tracks and recognizes texts by comprehending them, relating them each other with visual and semantic representations. 3) With contrastive learning, CoText models long-range dependencies and learning temporal information across multiple frames. 4) A simple, light-weight architecture is designed for effective and accurate performance, including GPU-parallel detection post-processing, CTCbased recognition head with Masked RoI, and track head with contrastive learning. Extensive experiments show the superiority of our method. Especially, CoText achieves an video text spotting IDF1 of 72.0% at 35.2 FPS on ICDAR2015video [13], with 10.5% and 26.2 FPS improvement
+the previous best method.
 
 Link to our new benchmark [BOVText: A Large-Scale, Bilingual Open World Dataset for Video Text Spotting](https://github.com/weijiawu/BOVText-Benchmark)
 
 
 ## Updates
+
+- (04/07/2022) CoText is accepted by ECCV2022.
+
 - (03/31/2022) Refactoring the code.  
 
 
@@ -129,5 +134,11 @@ CoText is released under MIT License.
 ## Citing
 
 If you use CoText in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
-
-
+```
+@article{wu2022cotext,
+  title={Real-time End-to-End Video Text Spotter with Contrastive Representation Learning},
+  author={Weijia Wu, Zhuang Li, Jiahong Li, Chunhua Shen, Hong Zhou, Size Li, Zhongyuan Wang, Ping Luo},
+  journal={ECCV2022},
+  year={2022}
+}
+```
