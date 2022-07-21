@@ -11,6 +11,7 @@
 
 ## Introduction
 [Real-Time End-to-End Video Text Spotting with Contrastive Representation Learning](https://arxiv.org/abs/2207.08417) | [Youtube Demo](https://www.youtube.com/watch?v=zXgEzWhfGBM)
+
 Video text spotting(VTS) is the task that requires simultaneously detecting, tracking and recognizing text instances in the video. Existing video text spotting methods typically develop sophisticated pipelines and multiple models, which is no friend for real-time applications. Here we propose a real-time end-to-end video text spotter with Contrastive Representation learning (CoText). Our contributions are three-fold: 1) For the first time, we simultaneously address the three tasks (e.g., text detection, tracking, recognition) in a real-time end-to-end trainable framework.
 2) With contrastive learning, CoText models long-range dependencies and learning temporal information across multiple frames. 3) A simple, light-weight architecture is designed for effective and accurate performance, including GPU-parallel detection post-processing, CTCbased recognition head with Masked RoI, and track head with contrastive learning. Extensive experiments show the superiority of our method. Especially, CoText achieves an video text spotting IDF1 of 72.0% at 35.2 FPS on ICDAR2015video [13], with 10.5% and 26.2 FPS improvement
 the previous best method.
