@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@Date    : 2021/09/29 15:22:13
-@Author  : lizhuang05
+@Date    : 2022/3/29 15:22:13
+@Author  : weijiawu
 @version : 1.0
-@License : (C)Copyright 2021-2022, Kwai
+@License : (C)Copyright 2021-2022, Zhejiang University
 全量数据预测
 '''
 import os

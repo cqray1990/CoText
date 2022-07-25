@@ -3,10 +3,10 @@
 '''
 @File    :   track.py
 @Time    :   2021/06/01 14:51:41
-@Author  :   lzneu
+@Author  :   weijia 
 @Version :   1.0
-@Contact :   lizhuang05@kuaishou.com
-@License :   (C)Copyright 2021-2022, Kwai
+@Contact :   weijiawu@zju.edu.cn
+@License :   (C)Copyright 2021-2022, Zhejiang University
 @Desc    :   通过在线获得的OCR结果，进行跟踪视频OCR定位
 '''
 

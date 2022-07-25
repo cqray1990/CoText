@@ -3,10 +3,10 @@
 '''
 @File    :   infer.py
 @Time    :   2021/08/09 17:16:57
-@Author  :   lzneu
+@Author  :   weijia
 @Version :   1.0
-@Contact :   lizhuang05@kuaishou.com
-@License :   (C)Copyright 2021-2022, Kwai
+@Contact :   weijiawu@zju.edu.cn
+@License :   (C)Copyright 2021-2022, Zhejiang University
 @Desc    :   改进PANPP-视频OCR
 '''
 import torchvision.transforms as transforms
