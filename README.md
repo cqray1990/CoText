@@ -7,7 +7,6 @@
 
 ![](pipeline.png)
 
-![](svrep.png)
 
 
 **Note**: The repository is the official code for both [SVRep](https://arxiv.org/pdf/2112.14976.pdf) and [CoText](https://arxiv.org/abs/2207.08417). And CoText is published in ECCV2022, and SVRep is the arxiv paper without publishing.
